@@ -5,27 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Covid Tracker</title>
 </head>
 <body>
    
    <div class="flex items-center justify-center flex-col px-8">
-    <h1 class="text-4xl my-8 py-12 px-24 bg-blue-300 rounded-2xl shadow-xl">Covid Summery</h1> 
+    <h1 class="text-4xl text-center my-8 py-12 px-24 bg-yellow-500 rounded-2xl shadow-xl">Covid Summery</h1> 
 
-    <div class="flex flex-col md:flex-row ">
-        <div class="text-4xl my-8 py-12 px-28 bg-blue-300 rounded-2xl shadow-xl">
+    <div class="flex flex-col md:flex-row">
+        <div class="text-4xl my-8 py-12 px-28 bg-blue-300 rounded-2xl shadow-xl m-4">
             <h2 class="text-lg text-center">Total Cases</h2>
             <p class="italic">{{total_case}}</p>
         </div>
         
-        <div class="text-4xl text-center my-8 py-12 px-32 bg-red-300 rounded-2xl shadow-xl">
+        <div class="text-4xl text-center my-8 py-12 px-32 bg-red-500 rounded-2xl shadow-xl">
             <h2 class="text-lg ">Total Death</h2>
             <p class="italic">{{total_death}}</p>
         </div>
     </div>
     
     <div class="flex flex-col mx-8 md:flex-row">
-        <div class="text-4xl my-8 py-12 px-28 bg-green-300 rounded-2xl shadow-xl">
+        <div class="text-4xl my-8 py-12 px-28 bg-green-300 rounded-2xl shadow-xl m-4">
             <h2 class="text-lg text-center">Total Recovered</h2>
             <p class="italic">{{total_recovered}}</p>
         </div>
