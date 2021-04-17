@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   
+   <div class="flex items-center justify-center flex-col">
+    <h1 class="text-4xl my-8 py-12 px-24 bg-blue-300 rounded-2xl">Covid Summery</h1> 
+
+    <div class="text-4xl my-8 py-4 px-28 bg-blue-300 rounded-2xl">
+        <h2 class="text-lg text-center">Total Cases</h2>
+        <p>{{total_case}}</p>
+    </div>
+    
+    <div class="text-4xl text-center my-8 py-4 px-32 bg-red-300 rounded-2xl">
+        <h2 class="text-lg ">Total Death</h2>
+        <p>{{total_death}}</p>
+    </div>
+    
+    <div class="text-4xl my-8 py-4 px-28 bg-green-300 rounded-2xl">
+        <h2 class="text-lg text-center">Total Recovered</h2>
+        <p>{{total_recovered}}</p>
+    </div>
+    
+    <div class="text-4xl text-center my-8 py-4 px-28 bg-green-500 rounded-2xl">
+        <h2 class="text-lg">Percentage of Recovery</h2>
+        <p>{{recovery_percentage}} %</p>
+    </div>
+   </div>
+
+</body>
+</html>
